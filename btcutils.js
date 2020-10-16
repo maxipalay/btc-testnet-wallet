@@ -78,7 +78,7 @@ async function sendTx(dest_address, send_amount, tx_fee) {
     utxos.sort(function(utxo1,utxo2){
         return utxo1.value-utxo2.value;
     })
-    console.log(utxos);
+    //console.log(utxos);
     let ninputs = 0;
     let tx = new bitcoin.TransactionBuilder(bitcoin.networks.testnet);
     for(let i=1; totalAmount<send_amount+tx_fee && i<utxos.length;i++){

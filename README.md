@@ -15,3 +15,5 @@ Entrega para Blockchain - 2020
 Pocas veces vi algo de código javascript por lo que seguramente no respeté muchas de las "guidelines" de la programación en este lenguaje.
 
 Hay varias construcciones extrañas que se deben a la falta de conocimiento sobre el lenguaje.
+
+El control de errores es muy pobre (si no inexistent).

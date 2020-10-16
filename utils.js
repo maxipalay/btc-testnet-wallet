@@ -84,7 +84,7 @@ function mainMenu(rl, mnemonic, seed, node, address) {
                     rl.close();
                     return;
                 default:
-                    console.log("No such option. Please enter another: ");
+                    console.log("La opción ingresada no es correcta.");
             }
     mainMenu(rl, mnemonic, seed, node, address);
     });
